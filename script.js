@@ -64,13 +64,6 @@ for (let i = 0; i < 5; i++) {
     console.log(`------------------------------------Round ${i + 1}------------------------------------`)
     if (i + 1 == 5) {
         console.log("Game ended!!!")
-        if (humanScore.length - 1 > machineScore.length - 1) {
-            console.log("You win!")
-        } else if (humanScore.length - 1 == humanScore.length - 1) {
-            console.log("Its a tie!")
-        }else {
-            console.log("You lost!")
-        }
     }
 }
 
